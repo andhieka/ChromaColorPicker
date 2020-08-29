@@ -51,7 +51,7 @@ public class ChromaColorPicker: UIControl, ChromaControlStylable {
     private(set) public var handles: [ChromaColorHandle] = []
     
     /// The last active handle.
-    private(set) public var currentHandle: ChromaColorHandle?
+    public var currentHandle: ChromaColorHandle?
     
     //MARK: - Initialization
     
